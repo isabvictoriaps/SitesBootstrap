@@ -44,7 +44,7 @@ header, .navbar {
 }
 
 #navbar-links a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(214, 200, 200);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -85,7 +85,7 @@ header, .navbar {
 
 .main-btn {
   background-color: #f7f7f7;
-  color: black;
+  color: white;
   text-transform: uppercase;
   width: 200px;
   height: 60px;
@@ -103,6 +103,43 @@ header, .navbar {
   border-color: #fff;
   font-size: 25px;
 }
+
+.main-btn2{
+  background-color: #ffffff;
+  color: black;
+  text-transform: uppercase;
+  width: 130px;
+  height: 50px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  transition: .5s;
+  font-size: 15px;
+}
+
+.main-btn2:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #005f6b;
+  border-color: #fff;
+  font-size: 16px;
+}
+
+.main-btn3{
+  color: black;
+  background-color: white;
+  width: 130px;
+  height: 50px;
+  padding: 20px 30px;
+  border-radius: 10px;
+
+}
+
+.main-btn3:hover{
+  text-decoration: none;
+  font-size: 17px;
+}
+
 
 .carousel-indicators .active {
   background-color: #005f6b;
@@ -405,10 +442,15 @@ header, .navbar {
 #contact-form .main-btn {
   width: 120px;
   height: 50px;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 5px;
+  transform: .5s;
 }
 
 #contact-form .main-btn:hover {
   color: #f7f7f7;
+  background-color: #005f6b;
 }
 
 /* Copy */
